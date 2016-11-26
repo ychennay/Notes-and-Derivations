@@ -1,0 +1,8 @@
+#calculating d_hat
+
+m =1614 # number of SNPs tested in this particular case
+
+data = readLines("test1.txt")
+data = strsplit(data, split=" ")
+data = matrix(as.numeric(unlist(data)), nrow=m, byrow=T)
+d_hat = sum((data[,1] - data[,2])*(data[,3])) / m
