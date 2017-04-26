@@ -1,4 +1,4 @@
-** Job
+** Job **
 Dependencies are
 - JobRepository
 - Step[]
@@ -13,7 +13,7 @@ Example of a Job configuration:
  </job>
 ```  
 
-** Steps
+** Steps **
 Consist of
 - ItemReader
 - ItemWriter
