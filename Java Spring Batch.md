@@ -14,7 +14,7 @@ Example of a Job configuration:
 ```  
 
 A job instance can be set to not be restartable, meaning the developer will need to instantiate another instance of the Job class 
-in order to run the job again ([Sring Batch Documentation])(http://docs.spring.io/spring-batch/reference/html/configureJob.html):
+in order to run the job again [(Spring Batch Documentation)](http://docs.spring.io/spring-batch/reference/html/configureJob.html):
 
 ```java
 Job job = new SimpleJob();
