@@ -1,4 +1,4 @@
-** Job **
+##Job 
 Dependencies are
 - JobRepository
 - Step[]
@@ -9,11 +9,11 @@ Example of a Job configuration:
 <job id= "videoGameJob">
   <step id="loadCharacters" parent="s1" next="loadWeapons"/>
   <step id="loadWeapons" parent="s2" next="loadContext" />
-  <step id="loadContext parent="s3" />
+  <step id="loadContext" parent="s3" />
  </job>
 ```  
 
-** Steps **
+##Steps 
 Consist of
 - ItemReader
 - ItemWriter
